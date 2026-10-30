@@ -1,0 +1,108 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #100b20;
+  color: white;
+}
+
+.app {
+  width: 100%;
+  max-width: 600px;
+  min-height: 100vh;
+  margin: auto;
+  padding: 25px 18px;
+}
+
+header {
+  text-align: center;
+  padding: 25px 5px;
+}
+
+header h1 {
+  font-size: 35px;
+  color: #bd8cff;
+  margin-bottom: 10px;
+}
+
+header p {
+  color: #b9accd;
+}
+
+.panel {
+  background: #211735;
+  border: 1px solid #49336c;
+  border-radius: 20px;
+  padding: 25px 18px;
+  text-align: center;
+}
+
+.panel h2,
+.tracks h2 {
+  color: #d6b5ff;
+}
+
+.upload {
+  display: block;
+  background: #813ce5;
+  padding: 16px;
+  border-radius: 12px;
+  margin: 22px 0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button {
+  width: 100%;
+  padding: 16px;
+  border: none;
+  border-radius: 12px;
+  background: #a65cff;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #51465e;
+  cursor: not-allowed;
+}
+
+.song {
+  overflow-wrap: anywhere;
+  margin-bottom: 20px;
+}
+
+audio {
+  width: 100%;
+}
+
+.message {
+  color: #c9a7ff;
+  margin-top: 20px;
+}
+
+.tracks {
+  background: #211735;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 22px;
+}
+
+.tracks p {
+  background: #33234b;
+  padding: 13px;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  color: #9b8cae;
+  margin-top: 35px;
+  padding-bottom: 20px;
+}
